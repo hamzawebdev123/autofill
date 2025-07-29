@@ -8,7 +8,7 @@ Users can submit a form, and the data is stored in a database. Each record can t
 
 ## 🔧 Tech Stack
 
-- **Backend:** Laravel 10 (PHP Framework)
+- **Backend:** Laravel 12 (PHP Framework)
 - **Frontend:** Blade (Laravel templating)
 - **Database:** MySQL
 - **Automation:** Python 3, Selenium
