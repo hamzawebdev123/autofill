@@ -1,0 +1,41 @@
+# Laravel Form Automation with Python Selenium Bot
+
+This project is a full-stack automation tool built with **Laravel** and **Python (Selenium)**.
+
+Users can submit a form, and the data is stored in a database. Each record can then trigger a Python-based automation bot (e.g., a form autofill bot using Selenium) with the submitted details.
+
+---
+
+## 🔧 Tech Stack
+
+- **Backend:** Laravel 10 (PHP Framework)
+- **Frontend:** Blade (Laravel templating)
+- **Database:** MySQL
+- **Automation:** Python 3, Selenium
+- **Runtime:** shell_exec() for Laravel-Python interaction
+
+---
+
+## 🚀 Features
+
+- ✅ User form submission (First Name, Last Name, Email, Password)
+- ✅ Saves all form submissions to database
+- ✅ Lists all submissions on the main page
+- ✅ Triggers a Python script with form data
+- ✅ Logs automation output for debugging
+
+---
+
+## 📷 Screenshots
+
+*Insert screenshots of your form page, form entries list, and success messages here.*
+
+---
+
+## 🧪 How It Works
+
+1. User fills and submits the form.
+2. Data is saved to the database.
+3. Admin can click "Trigger" to launch the bot.
+4. Laravel executes the Python script using `shell_exec`.
+5. The Python bot (e.g., Selenium script) automates actions using the form data.
